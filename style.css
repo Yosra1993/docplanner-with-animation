@@ -2,13 +2,6 @@
   margin: 0px;
 }
 
-/*
-*
-*
-*----------------------------- Header ---------------------------*
-*
-*/
-
 /*Container-header*/
 .header {
   height: 70px;
@@ -18,25 +11,18 @@
   padding-right: 10%;
   display: flex;
   justify-content: space-between;
-  /* flex-wrap: wrap; */
   width: 82%;
-  /* min-width: 500px; */
   z-index: 3;
-  /* height: auto; */
   box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, 0.15);
 }
 /*logo-header*/
 .header-logo {
-  padding-top: 20px;
-  height: 70px;
+  padding-top: 2%;
+
 }
 /*Nav-bar - Header*/
 .nav-bar {
   padding-top: 30px;
-  /* max-width: 30%; */
-  height: 70px;
-
-  margin-left: 35px;
 }
 .nav-bar a {
   text-decoration-line: none;
@@ -45,18 +31,19 @@
   font-family: arial;
 }
 #dropdown {
-  padding-top: 10px;
+  
   position: absolute;
-  min-width: 220px;
-  margin-left: 100px; /*in order to display the dropBox in the right-side*/
+  margin-left: 3%;
   background: #fff;
   box-shadow: 0 5px 10px 0 #d3cfc9;
   z-index: 1;
-  display: none;
+ display: none;
   flex-direction: column;
-  padding: 15px 0px 15px 15px;
+  padding: 47px 0px 15px 15px;
   justify-content: space-between;
   cursor: pointer;
+  width: 19%;
+  height: 150px;
 }
 .depart-drop:hover + #dropdown {
   display: flex;
@@ -70,8 +57,8 @@
 #dropdown a:hover {
   color: #00bfa5;
 }
-.a-vert {
-  color: rgb(0, 179, 155) !important;
+.nav-bar a:hover {
+  color: rgb(0, 179, 155);
 }
 
 /* * * *----------------------------- Main ---------------------------* * * */
@@ -100,7 +87,6 @@
 }
 .section1 h1 {
   text-align: center;
-  font-family: arial;
   color: rgb(0, 179, 155);
 }
 
@@ -112,6 +98,10 @@
   color: #ababab;
   line-height: 30px;
   text-align: justify;
+}
+h1
+{
+  font-family: 'Charmonman', cursive;
 }
 
 /* ------- Main:Section 2 --------*/
@@ -168,6 +158,12 @@
 #list-selection {
   width: 200px;
   height: 40px;
+  border-radius: 5%;
+  background-color: gray;
+  border-color: gray;
+  color: white;
+  font-weight: bold;
+  font-size: 86%;
 }
 
 /*--- Animation boxs ----*/
